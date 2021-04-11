@@ -5,13 +5,24 @@
         <link rel="icon" href="favicon.ico"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
         <title>Charm Finance: an ecosystem of innovative products within DeFi</title>
 
         <style>
+            @font-face {
+                font-family: "Gill Sans";
+                src: url("fonts/gill-sans.eot");
+                src: url("fonts/gill-sans.eot") format("eot"), url("fonts/gill-sans.woff2") format("woff2"), url("fonts/gill-sans.woff") format("woff"), url("fonts/gill-sans.ttf") format("truetype"), url("fonts/gill-sans.svg") format("svg");
+            }
+
             body {
-                font-family: "Source Code Pro", monospace;
+                font-family: "Gill Sans", "Lato", sans-serif;
                 background-color: #fdf5fa;
+            }
+
+            .mono {
+                font-family: "Source Code Pro", monospace;
             }
 
             button:focus {
@@ -21,43 +32,43 @@
     </head>
 
     <body>
-        <div class="flex flex-col items-center text-center">
+        <div class="flex flex-col items-center text-center tracking-widest">
             <img class="mx-auto mt-12 w-12 h-12" src="cube.png" />
 
-            <div class="max-w-lg mt-6 text-gray-900 text-xl font-bold">
+            <h1 class="max-w-sm mt-6 text-gray-900 text-xl tracking-wider">
                 Charm is an ecosystem of innovative products within DeFi.
-            </div>
+            </h1>
 
-            <div class="grid grid-cols-2 gap-8 mt-12">
+            <div class="grid grid-cols-2 gap-8 mt-16">
                 <div class="flex flex-col max-w-sm p-8 pb-10 bg-white rounded-md">
-                    <h3 class="font-bold text-gray-900 tracking-wide">
+                    <h2 class="font-medium text-gray-900 text-lg">
                         Charm Options
-                    </h3>
-                    <div class="flex-grow mt-5 text-gray-600 leading-relaxed">
+                    </h2>
+                    <div class="flex-grow mt-5 text-md text-gray-600 leading-relaxed">
                         A breakthrough automated market-maker that can create liquid options on the blockchain.
                     </div>
                     <a href="https://options.charm.fi">
-                        <button class="mx-auto block mt-8 px-6 py-3 rounded-full bg-red-600 hover:bg-red-500 text-sm text-white font-bold tracking-wide">
-                            Use Options
+                        <button class="mx-auto block mt-8 px-6 py-3 rounded-full bg-red-600 hover:bg-red-500 mono text-sm text-white font-bold tracking-wide">
+                            Launch Options
                         </button>
                     </a>
                 </div>
                 <div class="flex flex-col max-w-sm p-8 pb-10 bg-white rounded-md">
-                    <h3 class="font-bold text-gray-900 tracking-wide">
+                    <h2 class="font-medium text-gray-900 text-lg">
                         Cube Tokens
-                    </h3>
-                    <div class="flex-grow mt-5 text-gray-600 leading-relaxed">
+                    </h2>
+                    <div class="flex-grow mt-5 text-md text-gray-600 leading-relaxed">
                         An experimental implementation of leveraged tokens, supporting 3X long and short positions on ETH, BTC, AAVE, LINK, UNI and YFI.
                     </div>
                     <a href="https://cubes.fi">
-                        <button class="mx-auto block mt-8 px-6 py-3 rounded-full bg-red-600 hover:bg-red-500 text-sm text-white font-bold tracking-wide">
-                            Use Cube Tokens
+                        <button class="mx-auto block mt-8 px-6 py-3 rounded-full bg-red-600 hover:bg-red-500 mono text-sm text-white font-bold tracking-wide">
+                            Launch Cube Tokens
                         </button>
                     </a>
                 </div>
             </div>
 
-            <div class="mt-16 text-gray-600">
+            <div class="mt-16 text-lg text-gray-600">
                 <p>
                     <a href="https://docs.charm.fi" class="text-indigo-700 hover:text-indigo-500 underline">Read the docs</a> to learn more about Charm.
                 </p>
