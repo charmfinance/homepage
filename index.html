@@ -32,70 +32,77 @@
     </head>
 
     <body>
-        <div class="flex flex-col items-center text-center tracking-widest">
+        <div class="min-h-screen flex flex-col items-center text-center tracking-widest">
             <img class="mx-auto mt-10 w-12 h-12" src="cube.png" />
 
             <h1 class="max-w-md mt-8 text-gray-900 text-3xl leading-snug">
                 Charm is an <span class="text-indigo-600">ecosystem</span> of <span class="text-indigo-600">innovative products</span> within DeFi
             </h1>
 
-            <div class="grid grid-cols-2 gap-10 mt-16">
-                <div class="flex flex-col max-w-md p-10 pb-12 bg-white rounded-md">
-                    <h2 class="text-gray-900 text-xl">
+            <div class="flex-grow grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-8 mt-24 gap-8">
+                <div class="flex flex-col max-w-xs p-8 pb-12 bg-white rounded-md">
+                    <h2 class="text-gray-900 text-lg font-semibold">
                         Options
                     </h2>
-                    <div class="flex-grow mt-5 text-lg text-gray-600 leading-relaxed">
+                    <div class="flex-grow mt-5 text-md text-gray-600 leading-relaxed">
                         A breakthrough automated market-maker that can create liquid options on the blockchain.
                     </div>
                     <a href="https://options.charm.fi">
-                        <button class="mx-auto block mt-10 px-6 py-4 rounded-full bg-red-600 hover:bg-red-500 mono text-md text-white font-bold tracking-wide">
+                        <button class="mx-auto block mt-8 px-6 py-4 rounded-full bg-red-600 hover:bg-red-500 mono text-md text-white font-semibold tracking-wide">
                             Launch Options
                         </button>
                     </a>
                 </div>
 
-                <div class="flex flex-col max-w-md p-10 pb-12 bg-white rounded-md">
-                    <h2 class="text-gray-900 text-xl">
-                        Cube Tokens
+                <div class="mx-auto flex flex-col max-w-xs p-8 pb-12 bg-white rounded-md">
+                    <h2 class="text-gray-900 text-lg font-semibold">
+                        Alpha Vaults
                     </h2>
-                    <div class="flex-grow mt-5 text-lg text-gray-600 leading-relaxed">
-                        An experimental implementation of leveraged tokens, supporting 3X long and short positions on ETH, BTC, AAVE, LINK, UNI and YFI.
+                    <div class="flex-grow mt-5 text-md text-gray-600 leading-relaxed">
+                        Alpha Vaults automatically manage liquidity on Uniswap V3 for you.
                     </div>
-                    <a href="https://cubes.fi">
-                        <button class="mx-auto block mt-10 px-6 py-4 rounded-full bg-red-600 hover:bg-red-500 mono text-md text-white font-bold tracking-wide">
-                            Launch Cube Tokens
+                    <a href="https://alpha.charm.fi">
+                        <button class="mx-auto block mt-8 px-6 py-4 rounded-full bg-red-600 hover:bg-red-500 mono text-md text-white font-semibold tracking-wide">
+                            Launch Alpha Vaults
                         </button>
                     </a>
                 </div>
 
-                <div class="mx-auto col-span-2 flex flex-col max-w-md p-10 pb-12 bg-white rounded-md">
-                    <h2 class="text-gray-900 text-xl">
-                        Alpha Vaults
+                <div class="flex flex-col max-w-xs p-8 pb-12 bg-white rounded-md">
+                    <h2 class="text-gray-900 text-lg font-semibold">
+                        Cube Tokens
                     </h2>
-                    <div class="flex-grow mt-5 text-lg text-gray-600 leading-relaxed">
-                        Alpha Vaults automatically manage liquidity on Uniswap V3 for you. They concentrate liquidity to earn higher yields and periodically rebalance to reduce impermanent loss.
+                    <div class="flex-grow mt-5 text-md text-gray-600 leading-relaxed">
+                        An experimental implementation of leveraged tokens for ETH, BTC, AAVE, LINK, UNI and YFI.
                     </div>
-                    <a href="https://alpha.charm.fi">
-                        <button class="mx-auto block mt-10 px-6 py-4 rounded-full bg-red-600 hover:bg-red-500 mono text-md text-white font-bold tracking-wide">
-                            Launch Alpha Vaults
+                    <a href="https://cubes.fi">
+                        <button class="mx-auto block mt-8 px-6 py-4 rounded-full bg-red-600 hover:bg-red-500 mono text-md text-white font-semibold tracking-wide">
+                            Launch Cube Tokens
                         </button>
                     </a>
                 </div>
             </div>
 
-            <div class="mt-20 text-xl text-gray-600">
-                <p>
-                    <a href="https://learn.charm.fi" class="text-indigo-700 hover:text-indigo-500 underline">Read the docs</a> to learn more about Charm.
-                </p>
-                <p class="mt-4">
-                    <a href="https://twitter.com/charmfinance" class="text-indigo-700 hover:text-indigo-500 underline">Follow on twitter</a> to stay up to date.
-                </p>
-                <p class="mt-4">
-                    <a href="https://discord.com/invite/6BY3Fq2" class="text-indigo-700 hover:text-indigo-500 underline">Join the community</a> on Discord.
-                </p>
-                <p class="mt-4">
-                    <a href="https://github.com/charmfinance/" class="text-indigo-700 hover:text-indigo-500 underline">Read the code</a> on Github.
-                </p>
+            <div class="flex justify-center space-x-12 mt-24 mb-12 text-lg text-gray-600 hover:text-gray-700">
+                <a href="https://learn.charm.fi/" target="_blank" rel="noopener noreferrer">
+                    Docs
+                </a>
+
+                <a href="https://discord.gg/6BY3Fq2" target="_blank" rel="noopener noreferrer">
+                    Discord
+                </a>
+
+                <a href="https://t.me/charmfinance" target="_blank" rel="noopener noreferrer">
+                    Telegram
+                </a>
+
+                <a href="https://twitter.com/charmfinance" target="_blank" rel="noopener noreferrer">
+                    Twitter
+                </a>
+
+                <a href="https://github.com/charmfinance" target="_blank" rel="noopener noreferrer">
+                    Github
+                </a>
             </div>
         </div>
     </body>
