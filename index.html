@@ -7,19 +7,13 @@
         <link rel="icon" href="favicon.ico"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
         <title>Charm Finance: an ecosystem of innovative products within DeFi</title>
 
         <style>
-            @font-face {
-                font-family: "Gill Sans";
-                src: url("fonts/gill-sans.eot");
-                src: url("fonts/gill-sans.eot") format("eot"), url("fonts/gill-sans.woff2") format("woff2"), url("fonts/gill-sans.woff") format("woff"), url("fonts/gill-sans.ttf") format("truetype"), url("fonts/gill-sans.svg") format("svg");
-            }
-
             body {
-                font-family: "Gill Sans", "Lato", sans-serif;
+                font-family: "Nunito", sans-serif;
                 background-color: #fdf5fa;
             }
 
@@ -34,64 +28,66 @@
     </head>
 
     <body>
-        <div class="min-h-screen flex flex-col items-center text-center">
+        <div class="min-h-screen flex flex-col items-center">
             <img class="mx-auto mt-8 sm:mt-10 w-10 sm:w-12 h-10 sm:h-12" src="cube.png" />
 
-            <h1 class="max-w-md mt-8 mx-6 text-gray-900 text-2xl sm:text-3xl leading-snug tracking-wider">
+            <h1 class="max-w-lg mt-8 mx-6 text-gray-900 text-2xl sm:text-3xl text-center font-semibold leading-snug tracking-wider">
                 Charm is an <span class="text-indigo-600">ecosystem</span> of <span class="text-indigo-600">innovative products</span> within DeFi
             </h1>
 
-            <div class="flex-grow grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 sm:mx-8 mt-12 md:mt-16 gap-8">
-                <div class="flex flex-col max-w-sm p-6 sm:p-8 pb-10 sm:pb-12 bg-white rounded-md">
-                    <h3 class="text-gray-900 text-lg sm:text-xl font-semibold tracking-wider">
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 sm:mx-8 mt-12 md:mt-16 gap-8">
+                <div class="flex flex-col max-w-xs p-6 sm:p-8 pb-8 sm:pb-10 bg-white rounded-md text-center">
+                    <h3 class="text-gray-900 text-md sm:text-lg font-semibold tracking-wider">
                         Alpha Vaults
                     </h3>
-                    <div class="flex-grow mt-5 text-md sm:text-lg text-gray-600 leading-relaxed tracking-wider">
-                        Alpha Vaults automatically manage liquidity on Uniswap V3 for you.
+                    <div class="flex-grow mt-3 text-sm sm:text-base text-gray-600 leading-relaxed tracking-wide">
+                        Automatically manages liquidity on Uniswap V3 for you.
                     </div>
                     <a href="https://alpha.charm.fi">
-                        <button class="mx-auto block mt-8 sm:mt-10 px-5 sm:px-6 py-3 sm:py-4 rounded-sm bg-indigo-600 hover:bg-indigo-500 mono text-sm sm:text-md text-white font-semibold tracking-wide">
+                        <button class="mx-auto block mt-6 sm:mt-8 px-5 sm:px-6 py-3 sm:py-4 rounded-sm bg-indigo-600 hover:bg-indigo-500 mono text-sm sm:text-md text-white font-semibold tracking-wide">
                             Launch Alpha Vaults
                         </button>
                     </a>
                 </div>
             </div>
 
-            <h2 class="max-w-md mt-24 mx-6 text-gray-900 text-xl sm:text-2xl leading-snug tracking-wider">
+            <h2 class="max-w-md mt-24 mx-6 text-gray-900 text-xl sm:text-2xl text-center font-semibold leading-snug tracking-wider">
                 Charm Labs: <span class="text-indigo-600">experimental protocols</span>
             </h2>
 
-            <div class="flex-grow grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:mx-8 mt-10 md:mt-12 gap-8">
-                <div class="flex flex-col max-w-sm p-6 sm:p-8 pb-10 sm:pb-12 bg-white rounded-md">
-                    <h3 class="text-gray-900 text-lg sm:text-xl font-semibold tracking-wider">
-                        Options
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:mx-8 mt-10 md:mt-12 gap-8">
+                <div class="flex flex-col max-w-xs p-6 sm:p-8 pb-8 sm:pb-10 bg-white rounded-md text-center">
+                    <h3 class="text-gray-900 text-md sm:text-lg font-semibold tracking-wider">
+                        Options V1
                     </h3>
-                    <div class="flex-grow mt-5 text-md sm:text-lg text-gray-600 leading-relaxed tracking-wider">
-                        A breakthrough automated market-maker that can create liquid options on the blockchain.
+                    <div class="flex-grow mt-3 text-sm sm:text-base text-gray-600 leading-relaxed tracking-wide">
+                        A breakthrough automated market-maker for options.<br />Withdrawals only.
                     </div>
                     <a href="https://options.charm.fi">
-                        <button class="mx-auto block mt-8 sm:mt-10 px-5 sm:px-6 py-3 sm:py-4 rounded-sm bg-red-600 hover:bg-red-500 mono text-sm sm:text-md text-white font-semibold tracking-wide">
-                            Launch Options
+                        <button class="mx-auto block mt-6 sm:mt-8 px-5 sm:px-6 py-3 sm:py-4 rounded-sm bg-red-600 hover:bg-red-500 mono text-sm sm:text-md text-white font-semibold tracking-wide">
+                            Launch Options V1
                         </button>
                     </a>
                 </div>
 
-                <div class="flex flex-col max-w-sm p-6 sm:p-8 pb-10 sm:pb-12 bg-white rounded-md">
-                    <h3 class="text-gray-900 text-lg sm:text-xl font-semibold tracking-wider">
+                <div class="flex flex-col max-w-xs p-6 sm:p-8 pb-8 sm:pb-10 bg-white rounded-md text-center">
+                    <h3 class="text-gray-900 text-md sm:text-lg font-semibold tracking-wider">
                         Cube Tokens
                     </h3>
-                    <div class="flex-grow mt-5 text-md sm:text-lg text-gray-600 leading-relaxed tracking-wider">
-                        An experimental implementation of leveraged tokens for ETH, BTC, AAVE, LINK, UNI and YFI.
+                    <div class="flex-grow mt-3 text-sm sm:text-base text-gray-600 leading-relaxed tracking-wide">
+                        An experimental implementation of leveraged tokens.<br />Withdrawals only.
                     </div>
                     <a href="https://cubes.fi">
-                        <button class="mx-auto block mt-8 sm:mt-10 px-5 sm:px-6 py-3 sm:py-4 rounded-sm bg-red-600 hover:bg-red-500 mono text-sm sm:text-md text-white font-semibold tracking-wide">
+                        <button class="mx-auto block mt-6 sm:mt-8 px-5 sm:px-6 py-3 sm:py-4 rounded-sm bg-red-600 hover:bg-red-500 mono text-sm sm:text-md text-white font-semibold tracking-wide">
                             Launch Cube Tokens
                         </button>
                     </a>
                 </div>
             </div>
 
-            <div class="flex flex-wrap justify-center mt-20 mb-10 text-lg text-gray-600 tracking-wider">
+            <div class="flex-grow"></div>
+
+            <div class="mt-12 mb-10 text-md text-gray-600 tracking-wide text-center">
                 <a href="https://learn.charm.fi/" target="_blank" rel="noopener noreferrer" class="px-6 py-2 hover:text-gray-700">
                     Docs
                 </a>
